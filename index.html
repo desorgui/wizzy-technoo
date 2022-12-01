@@ -1,0 +1,1092 @@
+<!--
+  Template Name   : Wigui - Technology | The Multi-Purpose HTML5 Blog Template
+  Author          : Wiguibillion - Desor Guishny
+  ThemeForest     : https://themeforest.net/user/desorgui
+  Contact         : wiguibillion@gmail.com
+  Created         : June 5th 2021
+  License         : You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+<!-- :: Head -->
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Wiguibillion - Desor Guishny" />
+	<meta name="description" content="Here is a precise description of my awesome webpage." />
+	<meta name="theme-color" content="#f39c14" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="keywords" content="wigui, education, beauty, blog, personal, news, creative, clean, technology, multipurpose, product, product launch, responsive, software, startup" />
+		<title>Technology</title>
+		<link rel="icon" type="image/png" href="img/logo2.png" />
+
+		<!--:: CSS Files -->
+		<link rel="stylesheet" href="fontawesome/css/all.css" type="text/css" />
+		<link rel="stylesheet" href="./assets/css/lib/bootstrap.css" />
+		<link rel="stylesheet" href="./assets/css/lib/font-awesome.min.css" />
+		<link
+			rel="stylesheet"
+			href="./assets/css/theme/style.css"
+			type="text/css"
+		/>
+		<link rel="stylesheet" href="./assets/css/theme/technology.css" />
+		<link rel="stylesheet" href="./assets/css/theme/dark.css" type="text/css" />
+	</head>
+	<body>
+		<div class="topHeader">
+			<!-- :: Navbar -->
+			<nav class="th-nav-st1">
+				<div class="container">
+					<!-- nav content -->
+					<div
+						class="
+							nav-content
+							d-flex
+							align-items-center
+							justify-content-between
+						"
+					>
+						<!-- brand -->
+						<a href="index.html" class="brand">
+							<img
+								src="img/logo2.png"
+								class="img-fluid"
+								alt="logo"
+								loading="lazy"
+								decoding="async"
+							/>
+							Wigui
+						</a>
+
+						<!-- Search -->
+						<div class="search_container" id="search_containerId">
+							<div class="searchBox">
+								<input type="checkbox" class="searchCheck" id="searchCheck" />
+								<input
+									class="searchInput"
+									type="text"
+									name="search"
+									placeholder="Search"
+								/>
+								<button class="searchButton">
+									<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</div>
+						<!-- togle dark/light-->
+						<a href="javascript:void(0);" class="sun">
+							<i class="fas fa-sun"></i>
+						</a>
+						<a href="javascript:void(0);" class="moon">
+							<i class="fas fa-moon"></i>
+						</a>
+						<div class="toggle">
+							<input type="checkbox" class="checkbox" id="chk" />
+							<div class="label">
+								<i class="fas fa-moon"></i>
+								<i class="fas fa-sun"></i>
+								<div class="ball" onClick="too()"></div>
+							</div>
+						</div>
+						<!-- links -->
+
+						<ul
+							class="
+								nav-links
+								list-unstyled
+								d-lg-flex
+								align-items-center
+								justify-content-end
+								mb-0
+							"
+						>
+							<!-- nav item has dropdown -->
+							<li class="th-nav-item position-relative">
+								<a
+									href="index.html"
+									class="
+										position-relative
+										d-flex
+										align-items-center
+										justify-content-lg-center justify-content-between
+										text-capitalize
+									"
+									>home</a
+								>
+								
+							</li>
+
+							<!-- nav item has dropdown -->
+							<li class="th-nav-item has-dropdown position-relative">
+								<a
+									href="#"
+									onclick="return false;"
+									class="
+										position-relative
+										d-flex
+										align-items-center
+										justify-content-lg-center justify-content-between
+										text-capitalize
+									"
+									>pages</a
+								>
+								<!-- dropdown list -->
+								<ul class="th-dropdown-list list-unstyled mb-0">
+									<!-- dropdown Item -->
+									<li class="th-dropdown-item">
+										<a
+											href="author.html"
+											class="
+												position-relative
+												d-flex
+												align-items-center
+												justify-content-between
+												text-capitalize
+											"
+											>Author</a
+										>
+									</li>
+									<!-- dropdown Item -->
+									<li class="th-dropdown-item">
+										<a
+											href="category.html"
+											class="
+												position-relative
+												d-flex
+												align-items-center
+												justify-content-between
+												text-capitalize
+											"
+											>Category</a
+										>
+									</li>
+									
+									<!-- dropdown Item -->
+									<li class="th-dropdown-item">
+										<a
+											href="single.html"
+											class="
+												position-relative
+												d-flex
+												align-items-center
+												justify-content-between
+												text-capitalize
+											"
+											>Single</a
+										>
+									</li>
+								</ul>
+							</li>
+
+							<!-- nav item -->
+							<li class="th-nav-item position-relative">
+								<a
+									href="#"
+									onclick="return false;"
+									class="
+										position-relative
+										d-flex
+										align-items-center
+										justify-content-lg-center justify-content-between
+										text-capitalize
+									"
+									>About Us</a
+								>
+							</li>
+						</ul>
+
+						<!-- toggler Menu-->
+						<button class="nav-toggler d-lg-none d-block" id="nav_toggler">
+							<span class="d-block w-100"></span>
+							<span class="d-block w-100"></span>
+							<span class="d-block w-100"></span>
+						</button>
+					</div>
+				</div>
+			</nav>
+			<!--Search max width 991px-->
+			<div class="search">
+				<input
+					class="searchInput2"
+					type="text"
+					name="Search2"
+					placeholder="Search"
+				/>
+				<button class="searchButton2">
+					<i class="fa fa-search"></i>
+				</button>
+			</div>
+		</div>
+		<!--Banner Section Begin-->
+		<div class="techno_header_container">
+			<div class="techno_banner_content">
+				<!--Banner Text Container-->
+				<div class="banner_text_container">
+					<h2>Learn something new On this site</h2>
+					<p>
+						“When you really learn, you learn throughout your life, without
+						being a pupil of any Master in particular."
+					</p>
+					<!--Banner liquid button-->
+					<div class="linkbtn">
+						<a href="#"
+							>Read More
+							<div class="liquid"></div>
+						</a>
+						<a href="#"
+							>Start Now
+							<div class="liquid"></div>
+						</a>
+					</div>
+				</div>
+				<!--Pattern Image-->
+				<img
+					src="techno_img/techno(17).png"
+					class="pattern"
+					loading="lazy"
+					decoding="async"
+					alt="Illustration_image"
+				/>
+				<!--Container With Hexagon Background-->
+				<div class="banner_image_container">
+					<!-- Hexagon Background Light mode-->
+					<div class="imagelight header_imm">
+						<img src="techno_img/banner_img.png" alt="Illustration_image" />
+					</div>
+					<!-- Hexagon Background Dark mode-->
+					<div class="imagedark header_imm">
+						<img src="techno_img/7hexa1dark.png" alt="Illustration_image" />
+					</div>
+					<!--Floating icon-->
+					<div class="animate_icon cranium" style="--i: 6">
+						<img
+							src="techno_img/techno(1).png"
+							loading="lazy"
+							decoding="async"
+							alt="Illustration_image"
+						/>
+					</div>
+					<!--Floating icon-->
+					<div class="animate_icon search__icon" style="--i: 0">
+						<img
+							src="techno_img/techno(3).png"
+							loading="lazy"
+							decoding="async"
+							alt="Illustration_image"
+						/>
+					</div>
+					<!--Floating icon-->
+					<div class="animate_icon user" style="--i: 1">
+						<img
+							src="techno_img/techno(10).png"
+							loading="lazy"
+							decoding="async"
+							alt="Illustration_image"
+						/>
+					</div>
+					<!--Floating icon-->
+					<div class="animate_icon chart" style="--i: 2">
+						<img
+							src="techno_img/techno(12).png"
+							loading="lazy"
+							decoding="async"
+							alt="Illustration_image"
+						/>
+					</div>
+					<!--Floating icon-->
+					<div class="animate_icon rocket" style="--i: 3">
+						<img
+							src="techno_img/techno(2).png"
+							loading="lazy"
+							decoding="async"
+							alt="Illustration_image"
+						/>
+					</div>
+					<!--Floating icon-->
+					<div class="animate_icon phone" style="--i: 4">
+						<img
+							src="techno_img/techno(4).png"
+							loading="lazy"
+							decoding="async"
+							alt="Illustration_image"
+						/>
+					</div>
+					<!--Floating icon-->
+					<div class="animate_icon mapmarker" style="--i: 5">
+						<img
+							src="techno_img/techno(14).png"
+							loading="lazy"
+							decoding="async"
+							alt="Illustration_image"
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Post cards-->
+		<div class="container_section">
+			<div class="main">
+				<a href="category.html">
+					<h1 class="text_category text_3d">Trending</h1></a
+				>
+				<ul class="cards">
+					<!-- Post card-->
+					<li class="cards_item">
+						<div class="card">
+							<!-- Post Image-->
+							<div class="card_image">
+								<img
+									src="techno_img/virtualreality.jpg"
+									class="image"
+									alt="Illustration_image"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+							<div class="card_content">
+								<!-- Post Text-->
+								<h2 class="card_title">
+									<a href="single.html"
+										>Virtual Reality The technology of the future</a
+									>
+								</h2>
+								<p class="card_text">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry. Lorem Ipsum
+								</p>
+								<!-- Post Button-->
+								<a href="single.html" class="btn card_btn">Read More</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Post card-->
+					<li class="cards_item">
+						<div class="card">
+							<!-- Post Image-->
+							<div class="card_image">
+								<img
+									src="techno_img/mini.jpg"
+									class="image"
+									alt="Illustration_image"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+							<div class="card_content">
+								<!-- Post Text-->
+								<h2 class="card_title">
+									<a href="single.html"
+										>miniaturization makes it possible to have telephone
+										watches.</a
+									>
+								</h2>
+								<p class="card_text">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry. Lorem Ipsum
+								</p>
+								<!-- Post Button-->
+								<a href="single.html" class="btn card_btn">Read More</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Post card-->
+					<li class="cards_item">
+						<div class="card">
+							<!-- Post Image-->
+							<div class="card_image">
+								<img
+									src="techno_img/phone.jpg"
+									class="image"
+									alt="Illustration_image"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+							<div class="card_content">
+								<!-- Post Text-->
+								<h2 class="card_title">
+									<a href="single.html"
+										>The stages of the communication device revolution</a
+									>
+								</h2>
+								<p class="card_text">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry. Lorem Ipsum
+								</p>
+								<!-- Post Button-->
+								<a href="single.html" class="btn card_btn">Read More</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Post card-->
+					<li class="cards_item">
+						<div class="card">
+							<!-- Post Image-->
+							<div class="card_image">
+								<img
+									src="techno_img/roboticarm.jpg"
+									class="image"
+									alt="Illustration_image"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+							<div class="card_content">
+								<!-- Post Text-->
+								<h2 class="card_title">
+									<a href="single.html"
+										>Prosthetic arm technology enables patients to feel the
+										object they grip
+									</a>
+								</h2>
+								<p class="card_text">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry. Lorem Ipsum
+								</p>
+								<!-- Post Button-->
+								<a href="single.html" class="btn card_btn">Read More</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Post card-->
+					<li class="cards_item">
+						<div class="card">
+							<!-- Post Image-->
+							<div class="card_image">
+								<img
+									src="techno_img/science.jpg"
+									class="image"
+									alt="Illustration_image"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+							<div class="card_content">
+								<!-- Post Text-->
+								<h2 class="card_title">
+									<a href="single.html">How the tech pioneers get started.</a>
+								</h2>
+								<p class="card_text">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry. Lorem Ipsum
+								</p>
+								<!-- Post Button-->
+								<a href="single.html" class="btn card_btn">Read More</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Post card-->
+					<li class="cards_item">
+						<div class="card">
+							<!-- Post Image-->
+							<div class="card_image">
+								<img
+									src="techno_img/keyboard.jpg"
+									class="image"
+									alt="Illustration_image"
+									loading="lazy"
+									decoding="async"
+								/>
+							</div>
+							<div class="card_content">
+								<!-- Post Text-->
+								<h2 class="card_title">
+									<a href="single.html"
+										>The best way to use a virtual laser keyboard</a
+									>
+								</h2>
+								<p class="card_text">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry. Lorem Ipsum
+								</p>
+								<!-- Post Button-->
+								<a href="single.html" class="btn card_btn">Read More</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container_section">
+			<div class="">
+				<a href="category.html">
+					<h1 class="text_category text_3d">Explore</h1></a
+				>
+				<div class="container">
+					<div class="containert">
+						<!--Single Post Begin-->
+						<div class="single_post">
+							<div class="content">
+								<!--Single Post Image-->
+								<div class="img_post">
+									<img
+										src="techno_img/labo.jpg"
+										alt="Post img_post"
+										loading="lazy"
+										decoding="async"
+									/>
+									<div class="gradient_cover_img"></div>
+								</div>
+								<!--Single Post Text-->
+								<div class="post_text">
+									<h5 class="title"><a href="single.html">
+										The new technology laboratories are equipped with nanotechnology tool systems</a>
+									</h5>
+									<p>
+										A lot of text that we cant mesure A lot of text that we cant
+										mesure A lot of text that we cant mesure A lot of text that
+										we cant mesure A lot of text that we cant mesure A lot of
+										text that we cant mesure
+									</p>
+									<!--Single Post Button-->
+									<a href="single.html" class="readmore">Read more</a>
+								</div>
+							</div>
+						</div>
+						<!--Single Post End-->
+
+						<!--Single Post Begin-->
+						<div class="single_post">
+							<div class="content">
+								<!--Single Post Image-->
+								<div class="img_post">
+									<img
+										src="techno_img/Arm.jpg"
+										alt="Post img_post"
+										loading="lazy"
+										decoding="async"
+									/>
+									<div class="gradient_cover_img"></div>
+								</div>
+								<!--Single Post Text-->
+								<div class="post_text">
+									<h5 class="title"><a href="single.html">
+										The invention of the latest generation of robotic arms is a big step towards the future</a>
+									</h5>
+									<p>
+										A lot of text that we cant mesure A lot of text that we cant
+										mesure A lot of text that we cant mesure A lot of text that
+										we cant mesure A lot of text that we cant mesure A lot of
+										text that we cant mesure
+									</p>
+									<!--Single Post Button-->
+									<a href="single.html" class="readmore">Read more</a>
+								</div>
+							</div>
+						</div>
+						<!--Single Post End-->
+
+						<!--Single Post Begin-->
+						<div class="single_post">
+							<div class="content">
+								<!--Single Post Image-->
+								<div class="img_post">
+									<img
+										src="techno_img/travel.jpg"
+										alt="Post img_post"
+										loading="lazy"
+										decoding="async"
+									/>
+									<div class="gradient_cover_img"></div>
+								</div>
+								<!--Single Post Text-->
+								<div class="post_text">
+									<h5 class="title"><a href="single.html">
+										World economic leaders want to send tourists into space in the coming days</a>
+									</h5>
+									<p>
+										A lot of text that we cant mesure A lot of text that we cant
+										mesure A lot of text that we cant mesure A lot of text that
+										we cant mesure A lot of text that we cant mesure A lot of
+										text that we cant mesure
+									</p>
+									<!--Single Post Button-->
+									<a href="single.html" class="readmore">Read more</a>
+								</div>
+							</div>
+						</div>
+						<!--Single Post End-->
+
+						<!--Single Post Begin-->
+						<div class="single_post">
+							<div class="content">
+								<!--Single Post Image-->
+								<div class="img_post">
+									<img
+										src="techno_img/explorer.jpg"
+										alt="Post img_post"
+										loading="lazy"
+										decoding="async"
+									/>
+									<div class="gradient_cover_img"></div>
+								</div>
+								<!--Single Post Text-->
+								<div class="post_text">
+									<h5 class="title"><a href="single.html">
+										The explorer of Mars is equipped with tools allowing him to analyze the
+										substances witch compose the rocks</a>
+									</h5>
+									<p>
+										A lot of text that we cant mesure A lot of text that we cant
+										mesure A lot of text that we cant mesure A lot of text that
+										we cant mesure A lot of text that we cant mesure A lot of
+										text that we cant mesure
+									</p>
+									<!--Single Post Button-->
+									<a href="single.html" class="readmore">Read more</a>
+								</div>
+							</div>
+						</div>
+						<!--Single Post End-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container_section">
+			<h1 class="text_category text_3d">Our Services</h1>
+
+			<!--services section-->
+
+			<div class="our_services">
+				<div class="container">
+					<div class="row mbr-justify-content-center">
+						<!--Wrap Sevices-->
+						<div class="col-lg-6 mbr-col-md-10">
+							<div class="wrap">
+								<!--Wrap Icon-->
+								<div class="ico-wrap">
+									<span class="mbr-iconfont fa-volume-up fa"></span>
+								</div>
+								<!--Wrap Text-->
+								<div class="text-wrap vcenter">
+									<h2
+										class="
+											mbr-fonts-style mbr-bold mbr-section-title3
+											display-5
+										"
+									>
+										Help you to stay <span>Successful</span>
+									</h2>
+									<p class="mbr-fonts-style text1 mbr-text display-6">
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum
+									</p>
+								</div>
+							</div>
+						</div>
+						<!--Wrap Sevices-->
+						<div class="col-lg-6 mbr-col-md-10">
+							<div class="wrap">
+								<!--Wrap Icon-->
+								<div class="ico-wrap">
+									<span class="mbr-iconfont fa-calendar fa"></span>
+								</div>
+								<!--Wrap Text-->
+								<div class="text-wrap vcenter">
+									<h2
+										class="
+											mbr-fonts-style mbr-bold mbr-section-title3
+											display-5
+										"
+									>
+										Create
+										<span>An Effective Team</span>
+									</h2>
+									<p class="mbr-fonts-style text1 mbr-text display-6">
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum
+									</p>
+								</div>
+							</div>
+						</div>
+						<!--Wrap Sevices-->
+						<div class="col-lg-6 mbr-col-md-10">
+							<div class="wrap">
+								<!--Wrap Icon-->
+								<div class="ico-wrap">
+									<span class="mbr-iconfont fa-globe fa"></span>
+								</div>
+								<!--Wrap Text-->
+								<div class="text-wrap vcenter">
+									<h2
+										class="
+											mbr-fonts-style mbr-bold mbr-section-title3
+											display-5
+										"
+									>
+										Launch
+										<span>A Unique Project</span>
+									</h2>
+									<p class="mbr-fonts-style text1 mbr-text display-6">
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum
+									</p>
+								</div>
+							</div>
+						</div>
+						<!--Wrap Sevices-->
+						<div class="col-lg-6 mbr-col-md-10">
+							<div class="wrap">
+								<!--Wrap Icon-->
+								<div class="ico-wrap">
+									<span class="mbr-iconfont fa-trophy fa"></span>
+								</div>
+								<!--Wrap Text-->
+								<div class="text-wrap vcenter">
+									<h2
+										class="
+											mbr-fonts-style mbr-bold mbr-section-title3
+											display-5
+										"
+									>
+										Achieve <span>Your Targets</span>
+									</h2>
+									<p class="mbr-fonts-style text1 mbr-text display-6">
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container_section">
+			<h1 class="text_category text_3d">Discorver More</h1>
+			<!-- :: Discover More -->
+			<div class="discover_more py-80 bg-2">
+				<div class="container">
+					<!-- row -->
+					<div class="row align-items-end">
+						<!-- col -->
+						<div class="col-lg-4 col-md-6 col-12">
+							<!-- box -->
+							<div
+								class="
+									service-box
+									d-flex
+									align-items-start
+									justify-content-start
+									mb-30
+								"
+							>
+								<!-- icon -->
+								<div class="icon">
+									<i
+										class="
+											fas
+											fa-landmark
+											d-flex
+											align-items-center
+											justify-content-center
+										"
+									></i>
+								</div>
+								<!-- text contain -->
+								<div class="t-c text-md-left text-center">
+									<h4 class="mb-3 text-uppercase">Online Banking</h4>
+									<p class="mb-0">
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum
+									</p>
+								</div>
+							</div>
+							<!-- box -->
+							<div
+								class="
+									service-box
+									d-flex
+									align-items-start
+									justify-content-start
+									mb-30
+								"
+							>
+								<!-- icon -->
+								<div class="icon">
+									<i
+										class="
+											fa fa-laptop-code
+											d-flex
+											align-items-center
+											justify-content-center
+										"
+									></i>
+								</div>
+								<!-- text contain -->
+								<div class="t-c text-md-left text-center">
+									<h4 class="mb-3 text-uppercase">Blockchain Technology</h4>
+									<p class="mb-0">
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum
+									</p>
+								</div>
+							</div>
+							<!-- box -->
+							<div
+								class="
+									service-box
+									d-flex
+									align-items-start
+									justify-content-start
+									mb-md-0 mb-30
+								"
+							>
+								<!-- icon -->
+								<div class="icon">
+									<i
+										class="
+											fab
+											fa-btc
+											d-flex
+											align-items-center
+											justify-content-center
+										"
+									></i>
+								</div>
+								<!-- text contain -->
+								<div class="t-c text-md-left text-center">
+									<h4 class="mb-3 text-uppercase">Bitcoin Mining</h4>
+									<p class="mb-0">
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- col -->
+						<div class="col-lg-4 col-md-6 col-12 d-lg-flex d-none">
+							<div class="why-choose-banner">
+								<img
+									src="techno_img/techno(18).png"
+									class="img-fluid"
+									alt="Illustration_image"
+								/>
+							</div>
+						</div>
+						<!-- col -->
+						<div class="col-lg-4 col-md-6 col-12">
+							<!-- box -->
+							<div
+								class="
+									service-box
+									d-flex
+									align-items-start
+									justify-content-start
+									mb-30
+								"
+							>
+								<!-- icon -->
+								<div class="icon">
+									<i
+										class="
+											fa fa-chart-area
+											d-flex
+											align-items-center
+											justify-content-center
+										"
+									></i>
+								</div>
+								<!-- text contain -->
+								<div class="t-c text-md-left text-center">
+									<h4 class="mb-3 text-uppercase">Site Optimization</h4>
+									<p class="mb-0">
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum
+									</p>
+								</div>
+							</div>
+							<!-- box -->
+							<div
+								class="
+									service-box
+									d-flex
+									align-items-start
+									justify-content-start
+									mb-30
+								"
+							>
+								<!-- icon -->
+								<div class="icon">
+									<i
+										class="
+											fa fa-money
+											d-flex
+											align-items-center
+											justify-content-center
+										"
+									></i>
+								</div>
+								<!-- text contain -->
+								<div class="t-c text-md-left text-center">
+									<h4 class="mb-3 text-uppercase">Online Earning</h4>
+									<p class="mb-0">
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum
+									</p>
+								</div>
+							</div>
+							<!-- box -->
+							<div
+								class="
+									service-box
+									d-flex
+									align-items-start
+									justify-content-start
+									mb-0
+								"
+							>
+								<!-- icon -->
+								<div class="icon">
+									<i
+										class="
+											fa fa-circle-o
+											d-flex
+											align-items-center
+											justify-content-center
+										"
+									></i>
+								</div>
+								<!-- text contain -->
+								<div class="t-c text-md-left text-center">
+									<h4 class="mb-3 text-uppercase">Logo Branding</h4>
+									<p class="mb-0">
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container_section">
+			<h1 class="text_category text_3d">Contact Wigui</h1>
+			<!--Section Contact-->
+			<div class="contact">
+				<div class="container">
+					<div class="content">
+						<form class="contact__form">
+							<!--Contact Info-->
+							<div class="contact__form-info">
+								<!--Name Field-->
+								<div class="contact__form-field">
+									<input
+										id="contact__form-label-name"
+										name="name"
+										placeholder="Name"
+										type="text"
+										class="contact__form-input"
+									/>
+									<label
+										class="contact__form-label"
+										for="contact__form-label-name"
+									>
+										<span class="contact__form-label-text">Your Name</span>
+									</label>
+								</div>
+								<!--Email Field-->
+								<div class="contact__form-field">
+									<input
+										id="contact__form-label-mail"
+										name="email"
+										placeholder="E-mail"
+										type="text"
+										class="contact__form-input"
+									/>
+									<label
+										class="contact__form-label"
+										for="contact__form-label-mail"
+									>
+										<span class="contact__form-label-text">Your E-mail</span>
+									</label>
+								</div>
+								<!--Phone Field-->
+								<div class="contact__form-field">
+									<input
+										id="contact__form-label-site"
+										name="phone"
+										placeholder="Phone"
+										type="text"
+										class="contact__form-input"
+									/>
+									<label
+										class="contact__form-label"
+										for="contact__form-label-site"
+									>
+										<span class="contact__form-label-text">Your Phone</span>
+									</label>
+								</div>
+							</div>
+							<!--Message Form-->
+							<div class="contact__form-text">
+								<!--Message Field-->
+								<div class="contact__form-field">
+									<textarea
+										id="contact__form-label-text"
+										name="author"
+										placeholder="Express your thoughts"
+										class="contact__form-input contact__form-textarea"
+									></textarea>
+									<label
+										class="contact__form-label"
+										for="contact__form-label-text"
+									>
+										<span class="contact__form-label-text"
+											>Express your thoughts</span
+										>
+									</label>
+								</div>
+							</div>
+							<!--Submit Button-->
+							<button
+								name="submit"
+								type="submit"
+								id="submit"
+								class="contact__form-submit"
+								style="align-items: center"
+							>
+								Send
+								<i class="fa fa-paper-plane" style="font-size: 1.2em"></i>
+							</button>
+						</form>
+
+						<div class="contact__list">
+							<!-- contact -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End Section contact-->
+
+		<!--Footer Section-->
+		<footer>
+			<div class="footer">
+				<a href="facebook.com"><i class="fa fa-facebook-f"></i></a>
+				<a href="twitter.com"><i class="fab fa-twitter "></i></a>
+				<a href="google.com"><i class="fab fa-google-plus-g"></i></a>
+				<a href="gmail.com"><i class="fa fa-envelope"></i></a>
+				<a href="contact.html"><i class="fa fa-phone"></i></a>
+				<p>
+					© Wiguiblog 2021. All Rights Reserved || Designed By:
+					<a href="themeforest.net/desorgui">Wigui</a>
+				</p>
+			</div>
+		</footer>
+		<!--End Footer Section-->
+
+		<!-- :: Scripts -->
+		<script src="./assets/js/lib/jquery-3.3.1.min.js"></script>
+		<script src="./assets/js/lib/bootstrap.min.js"></script>
+		<script src="./assets/js/lib/fontAwesome.js"></script>
+		<script src="./assets/js/theme/theme.js"></script>
+	</body>
+</html>
