@@ -119,6 +119,7 @@ Clone this repository to your desired folder:
 ```
   cd my-folder
   git clone git@github.com:desorgui/wizzy-technoo.git
+  cd wizzy-technoo
 ```
 
 <!-- ### Install
